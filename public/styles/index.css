@@ -11,7 +11,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+
 }
 
 .header {
@@ -83,8 +83,8 @@
     display: flex;
     flex-direction: row;
     margin-top: 14px;
-    
-    
+
+
 }
 
 .lng-p div {
@@ -128,3 +128,266 @@
     flex-direction: column;
     align-items: center;
 }
+
+.sobremi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sobremi h5 {
+    margin-left: 5px;
+    margin-top: 33px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.07);
+}
+
+.sobremi h4 {
+    margin-top: 8px;
+    width: 150px;
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    background: #2C2D31;
+    box-shadow: 0px -0.5px 1px rgba(255, 255, 255, 0.69);
+    border-radius: 8px;
+}
+
+.idiomas {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 26px;
+    width: 170px;
+}
+
+.idiomas h5 {
+    margin-left: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #20A2F7;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.07);
+}
+
+.idiomas div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.idiomas div div {
+    margin-top: 16px;
+    margin-right: 11px;
+    width: 49px;
+    height: 49px;
+    border-radius: 25px;
+    background: #117BB9;
+    box-shadow: 0px -1px 20px rgba(255, 255, 255, 0.34), 0px 0px 1px 2px #10A2F7, 0px 0px 0px 1px rgba(0, 0, 0, 0.98), inset 0px 0px 1px 3px #268DC9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.idiomas div div div {
+    margin: 0;
+    width: 38px;
+    height: 38px;
+    background: #444549;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), 0px 0px 1px 3.5px #3B3C40;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.idiomas div div div h4 {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.habilidades h5 {
+    margin-left: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #20A2F7;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.07);
+}
+
+.habilidades div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+}
+
+.habilidades div div {
+    margin: 0 0 8px 0;
+    padding: 0 3px 0 3px;
+    width: 170px;
+    height: 25px;
+    background: #33353C;
+    box-shadow: 0px -1px 1px 0.5px rgba(148, 148, 148, 0.51);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.habilidades div div img {
+    width: 13px;
+    height: 13px;
+    object-fit: cover;
+}
+
+.habilidades div div h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 8px;
+    color: #FFFFFF;
+}
+
+.habilidades div div div {
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+    margin: 0;
+    width: 53%;
+}
+
+.habilidades div div div div {
+    margin: 0;
+    width: 17px;
+    height: 17px;
+    border-radius: 10px;
+    background: #33353C;
+    box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.habilidades div div div div div {
+    width: 11px;
+    height: 11px;
+    border-radius: 6px;
+    background: linear-gradient(0deg, #129FF1, #129FF1), linear-gradient(0deg, #72AACA, #72AACA), #10A2F7;
+    mix-blend-mode: hard-light;
+    box-shadow: 0px 0px 3px 1px #10A2F7;
+    filter: blur(0.25px);
+}
+
+
+.aplicaciones {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.aplicaciones h5 {
+    margin-left: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #E86400;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.07);
+}
+
+.aplicaciones div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+}
+
+.aplicaciones div div {
+    margin: 0 0 8px 0;
+    padding: 0 3px 0 3px;
+    width: 170px;
+    height: 25px;
+    background: #33353C;
+    box-shadow: 0px -1px 1px 0.5px rgba(148, 148, 148, 0.51);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aplicaciones div div img {
+    width: 13px;
+    height: 13px;
+    object-fit: cover;
+}
+
+.aplicaciones div div h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 8px;
+    color: #FFFFFF;
+}
+
+.aplicaciones div div div {
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+    margin: 0;
+    width: 53%;
+}
+
+.aplicaciones div div div div {
+    margin: 0;
+    width: 17px;
+    height: 17px;
+    border-radius: 10px;
+    background: #33353C;
+    box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aplicaciones div div div div div {
+    width: 11px;
+    height: 11px;
+    border-radius: 6px;
+    background: #E86400;
+    box-shadow: 0px 0px 3px #E86400;
+    filter: blur(0.25px);
+    filter: blur(0.25px);
+}
+
+/*********** badane rast ************/
+
+.badane-r-paszamine {}
