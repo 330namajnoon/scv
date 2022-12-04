@@ -1,0 +1,129 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.paszamine {
+    width: 650px;
+    height: 1050px;
+    background-color: #202125;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 650px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imgDiv {
+    width: 76px;
+    height: 76px;
+    border-radius: 40px;
+    background-color: #1F2024;
+    box-shadow: 3px 3px 4px 3px rgba(26, 26, 26, 0.54), 0px 0px 1px 5px rgba(65, 65, 65, 0.56);
+    margin-left: 31px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgDiv img {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    object-fit: cover;
+}
+
+.moshakhasat-p {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 21px;
+    justify-content: space-evenly;
+}
+
+.moshakhasat-p h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.moshakhasat-p h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #10A2F7;
+    mix-blend-mode: lighten;
+}
+
+.moshakhasat-p h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+
+.lng-p {
+    display: flex;
+    flex-direction: row;
+    margin-top: 14px;
+    width: 380px;
+    justify-content: space-between;
+}
+
+.lng-p div {
+    background: #2A2B2F;
+    box-shadow: 0px -0.4px 0.5px 0.1px rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    padding: 4px 6px 4px 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lng-p img {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.lng-p h4 {
+    margin-left: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 5px;
+    color: #FFFFFF;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #404040;
+}
+
+
+/**************** badane chap **************/
+
+.badane-ch-paszamine {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
