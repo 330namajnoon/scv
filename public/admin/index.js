@@ -4,7 +4,19 @@ const socket = io();
 function Msg(data) {
     this.data = data;
     this.paszamine = document.createElement("div");
-
+    this.paszamine.className = "msgPaszamine";
+    this.heder = document.createElement("div");
+    this.heder.className = "msgHeder";
+    this.moshakhasat = document.createElement("h2");
+    this.moshakhasat.innerHTML = `${this.data.name} : ${this.data.email}`;
+    this.msg =document.createElement("h3");
+    this.msg.innerHTML = this.data.msg;
+    this.date = document.createElement("h4");
+    this.date.innerHTML = this.data.date;
+    this.paszamine.appendChild(this.heder);
+    this.heder.appendChild(this.moshakhasat);
+    this.paszamine.appendChild(this.msg);
+    this.paszamine.appendChild(this.date);
 }
 
 
@@ -15,7 +27,7 @@ function RabeteKarbari() {
     this.bazdidhaP = document.createElement("div");
     this.bazdidhaP.className = "bazdidhaP"; 
     this.bazdidhaIMG = document.createElement("img");
-    this.bazdidhaIMG.src = "../images/bazdidha.png";
+    this.bazdidhaIMG.src = "../images/view.png";
     this.bazdidhaIMG.className = "bazdidhaIMG"; 
     this.bazdidha = document.createElement("h3");
     this.bazdidha.className = "bazdidha"; 
@@ -36,7 +48,7 @@ RabeteKarbari.prototype.namayeshPayamha = function(msgs,bazdidha) {
     msgs.forEach(e => {
         this.msgs.push(new Msg(e));
     })
-    for (let index = this.msgs.length-1; index >= 0; index--) {
+    for (let index = this.msgs.length-1; index >= 1; index--) {
         this.msgsP.appendChild(this.msgs[index].paszamine);
     }
 }
