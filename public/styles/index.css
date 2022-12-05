@@ -6,12 +6,11 @@
 
 .paszamine {
     width: 650px;
-    height: 1050px;
+    height: 1100px;
     background-color: #202125;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-
 }
 
 .header {
@@ -121,6 +120,10 @@
 
 
 /**************** badane chap **************/
+.badane {
+    display: flex;
+    flex-direction: row;
+}
 
 .badane-ch-paszamine {
     width: 230px;
@@ -390,4 +393,269 @@
 
 /*********** badane rast ************/
 
-.badane-r-paszamine {}
+.badane-r-paszamine {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experiencias {
+    display: flex;
+    flex-direction: column;
+    margin-top: 31px;
+}
+
+.experiencias h5 {
+    font-family: "inter";
+    font-weight: 400;
+    margin-left: 5px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.546) 0%, #f5f5f5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.07);
+}
+
+.experiencias div {
+    margin-top: 16px;
+    width: 380px;
+    height: 120px;
+    background: #27282D;
+    box-shadow: -2px -2px 6px rgba(129, 129, 129, 0.25), 3px 3px 4px rgba(0, 0, 0, 0.25), inset -2px -2px 4px rgba(140, 140, 140, 0.25), inset 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.experiencias .img-div {
+    width: 40px;
+    height: 40px;
+    background: #202125;
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.7), 0px 0px 3px 1.5px rgba(162, 162, 162, 0.25), inset 0px 0px 2px 1px rgba(98, 92, 92, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+
+.experiencias .img-div img {
+    width: 37px;
+    height: 37px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.experiencias div div {
+    margin: 0;
+    background-color: transparent;
+    box-shadow: none;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.experiencias div h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.experiencias div h4 {
+    margin-bottom: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3px;
+    color: #FFFFFF;
+    width: 130px;
+}
+
+.experiencias div a {
+    padding: 2px 5px 2px 5px;
+    margin-top: 5px;
+    background: #37383D;
+    box-shadow: 0px -0.4px 0.5px 0.1px rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 5px;
+    color: #FFFFFF;
+}
+
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.proyectos h5 {
+    font-family: "inter";
+    font-weight: 400;
+    margin-left: 5px;
+    margin-bottom: 25px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.546) 0%, #f5f5f5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.07);
+}
+
+.proyectos div {
+    width: 380px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #28292E;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.71), 0px 0px 3px 3px #333439;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+
+.proyectos .imgDiv {
+    margin: 0;
+    width: 41px;
+    height: 41px;
+    background: #45474F;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.33), 0px 0px 5px 3px rgba(69, 70, 75, 0.42), inset -4px -4px 5px 1px rgba(140, 140, 140, 0.25), inset 0px 0px 3px 3px rgba(10, 9, 9, 0.25);
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyectos .imgDiv img {
+    width: 39px;
+    height: 39px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.proyectos div div {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: transparent;
+    box-shadow: none;
+    width: auto;
+    height: auto;
+    margin-left: 5px;
+
+}
+
+.proyectos .line {
+    width: 2px;
+    height: 42px;
+    background: #28292E;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.31), 0px 0px 2px 1px rgba(65, 65, 65, 0.25);
+    filter: blur(0.5px);
+    border-radius: 5px;
+    margin-right: 4px;
+}
+
+.proyectos div div h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 3px;
+    color: #7EC1E8;
+    margin-bottom: 7px;
+
+}
+
+.proyectos div div h6 {
+    font-family: 'Inter', sans-serif;
+    font-size: 3px;
+    font-weight: 200;
+    color: #A6A6A6;
+}
+
+.proyectos a {
+    width: 44px;
+    padding: 2px;
+    background: #2D2E34;
+    box-shadow: 0.3px 0.3px 2px rgba(0, 0, 0, 0.76), -0.3px -0.3px 0.2px rgba(65, 65, 65, 0.25);
+    border-radius: 1px;
+
+}
+
+.proyectos p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2px;
+    color: #CCCCCC;
+    text-align: center;
+}
+
+
+
+.msg {
+    width: 100%;
+    height: 123px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.msg textarea {
+    margin-left: 150px;
+    margin-top: 10px;
+    width: 140.02px;
+    height: 90px;
+    left: 595px;
+    top: 945px;
+    background: #2c2d32;
+    box-shadow: 0px 0px 8px 1px rgba(66, 66, 66, 0.25), inset 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    outline: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5px;
+    line-height: 6px;
+    color: #8D8D8D;
+    padding: 6px;
+}
+
+.msg input {
+    margin: 10px 150px 0px -0px;
+    padding: 10px;
+    background: #2c2d32;
+    box-shadow: 0px 0px 8px 1px rgba(66, 66, 66, 0.25), inset 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5px;
+    line-height: 6px;
+    color: #8D8D8D;
+    outline: none;
+}
+
+.msg input[type="button"] {
+    width: 101.55px;
+    height: 25px;
+    background: #2D2E33;
+    box-shadow: 3px 4px 5px 3px rgba(0, 0, 0, 0.25), 0px -0.2px 0px 0.5px rgba(68, 68, 68, 0.25);
+    border-radius: 1px;
+}
